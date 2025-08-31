@@ -152,7 +152,7 @@ const data: MyRouteResponse = await response.json();
 
 - **Standard**: `pnpm build`
 - **Binary**: Self-contained executables (Linux, macOS, Windows)
-- **Cloud Deployment**: Use Netlify via its MCP integration for easy deployment.
+- **Cloud Deployment**: Deploy with any provider or static hosting. Build outputs: client at dist/spa, optional server at dist/server.
 
 ## Architecture Notes
 
